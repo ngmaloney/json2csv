@@ -1,0 +1,22 @@
+[
+   {
+      "name":"Joe Smith",
+      "email":"jsmith@_google.com",
+      "status":"Active",
+      "gender":"Male"
+   },
+   {
+      "name":"Jenny Jones",
+      "email":"jjones@_gmail.com",
+      "status":"Active",
+      "animals":"yes",
+      "gender":"Female"
+   },
+   {
+      "name":"Biff Rogers",
+      "email":"brogers@_gmail.com",
+      "status":"Active",
+      "gender":"Male",
+      "occupation":"Landscaper"
+   }
+]
