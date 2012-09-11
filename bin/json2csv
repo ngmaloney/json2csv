@@ -1,0 +1,27 @@
+#!/usr/bin/env ruby
+
+require 'optparse'
+require 'methadone'
+require 'yajl'
+require 'json2csv'
+
+class App
+  include Methadone::Main
+  include Methadone::CLILogging
+
+  main do |file|
+    if !File.exists?(file.to_s)
+      puts 'A valid json file must be specified'
+      exit 0
+    end
+    csv_parser = Json2csv::Parser.new file
+    csv = csv_parser.generate_csv
+    puts csv
+  end
+
+  version Json2csv::VERSION
+
+  use_log_level_option
+
+  go!
+end
