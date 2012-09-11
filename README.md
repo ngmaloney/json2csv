@@ -29,10 +29,10 @@ Given a json file containing the following:
 
 json2csv will return
 
-name,email,status,gender,animals,occupation
-Joe Smith,jsmith@_google.com,Active,Male,"",""
-Jenny Jones,jjones@_gmail.com,Active,Female,yes,""
-Biff Rogers,brogers@_gmail.com,Active,Male,"",Landscaper
+name,email,status,gender,animals,occupation  
+Joe Smith,jsmith@_google.com,Active,Male,"",""  
+Jenny Jones,jjones@_gmail.com,Active,Female,yes,""  
+Biff Rogers,brogers@_gmail.com,Active,Male,"",Landscaper  
 
 ## Installation
 
