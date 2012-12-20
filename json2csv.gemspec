@@ -4,8 +4,8 @@ require File.expand_path('../lib/json2csv/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Nick Maloney"]
   gem.email         = ["ngmaloney@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{"converts json to csv data"}
+  gem.summary       = %q{"converts json to csv data"}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($\)
